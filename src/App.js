@@ -47,7 +47,7 @@ function App() {
       setAmount("")
     }
     else {
-      //handle alert holder
+      handleAlert({ type: 'danger', text: `charge cannot be an empty value and amount value has to be bigger than zero ` })
     }
 
   }
